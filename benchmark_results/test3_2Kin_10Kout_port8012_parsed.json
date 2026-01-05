@@ -1,0 +1,632 @@
+{
+  "summary": {
+    "completed": 100,
+    "failed": 0,
+    "total_input_tokens": 200000,
+    "total_output_tokens": 1000000,
+    "request_throughput": 0.006915146411536901,
+    "output_throughput": 69.15146411536901,
+    "total_token_throughput": 82.98175693844281,
+    "mean_ttft_ms": 137245.97582945134,
+    "median_ttft_ms": 143872.35944648273,
+    "std_ttft_ms": 64267.914470168536,
+    "p99_ttft_ms": 333740.0788565403,
+    "mean_tpot_ms": 98.68523216064901,
+    "median_tpot_ms": 100.47730836706297,
+    "std_tpot_ms": 10.498049340898655,
+    "p99_tpot_ms": 119.37610552889281,
+    "mean_itl_ms": 98.68523219702729,
+    "median_itl_ms": 63.641991233453155,
+    "std_itl_ms": 2123.7942459794635,
+    "p99_itl_ms": 75.56309160310775,
+    "avg_gpu_util_%": 100.0,
+    "max_gpu_util_%": 100.0,
+    "min_gpu_util_%": 100.0,
+    "avg_gpu_memory_used_mb": 77911.9634905269,
+    "max_gpu_memory_used_mb": 77912.0,
+    "avg_gpu_memory_free_mb": 3125.036509473102,
+    "min_gpu_memory_free_mb": 3125.0
+  },
+  "requests": {
+    "request_id 0": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.1900197509676218,
+      "e2el": 583.598166257143
+    },
+    "request_id 1": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8917069700546563,
+      "e2el": 814.3194517791271
+    },
+    "request_id 2": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8904034150764346,
+      "e2el": 585.6239308333024
+    },
+    "request_id 3": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8899146011099219,
+      "e2el": 642.3605468743481
+    },
+    "request_id 4": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8879508026875556,
+      "e2el": 1028.0702037969604
+    },
+    "request_id 5": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8873221199028194,
+      "e2el": 917.6877270806581
+    },
+    "request_id 6": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8872144822962582,
+      "e2el": 1192.4356872923672
+    },
+    "request_id 7": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.881277431268245,
+      "e2el": 1353.9150349609554
+    },
+    "request_id 8": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 231.65498245786875,
+      "e2el": 959.8121797940694
+    },
+    "request_id 9": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 332.97171697905287,
+      "e2el": 1016.0370694641024
+    },
+    "request_id 10": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 276.2339152530767,
+      "e2el": 1101.1676799897105
+    },
+    "request_id 11": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 104.27739717811346,
+      "e2el": 1146.803998727817
+    },
+    "request_id 12": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 111.0175307188183,
+      "e2el": 1173.1291361819021
+    },
+    "request_id 13": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8594368621706963,
+      "e2el": 1172.272022653371
+    },
+    "request_id 14": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 409.807904727757,
+      "e2el": 1150.8341847867705
+    },
+    "request_id 15": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 248.32258503511548,
+      "e2el": 1157.0582220400684
+    },
+    "request_id 16": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 58.83727140119299,
+      "e2el": 1107.9370190910995
+    },
+    "request_id 17": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.8063787538558245,
+      "e2el": 1179.5411713076755
+    },
+    "request_id 18": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 0.9477845244109631,
+      "e2el": 1192.9794430504553
+    },
+    "request_id 19": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 240.167277880013,
+      "e2el": 1117.9650950087234
+    },
+    "request_id 20": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 110.46954397438094,
+      "e2el": 1124.9162942394614
+    },
+    "request_id 21": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 143.92143829725683,
+      "e2el": 1171.0193447880447
+    },
+    "request_id 22": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 309.1039868472144,
+      "e2el": 1168.384271660354
+    },
+    "request_id 23": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 141.39468186767772,
+      "e2el": 1133.882561916951
+    },
+    "request_id 24": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 130.82696852227673,
+      "e2el": 1147.5757460873574
+    },
+    "request_id 25": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 156.34232321288437,
+      "e2el": 1166.7080551255494
+    },
+    "request_id 26": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 143.60837952932343,
+      "e2el": 1142.808368390426
+    },
+    "request_id 27": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 137.6682490510866,
+      "e2el": 1146.44137781905
+    },
+    "request_id 28": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 156.6515600439161,
+      "e2el": 1161.2751177735627
+    },
+    "request_id 29": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 141.30258281808347,
+      "e2el": 1143.3963443241082
+    },
+    "request_id 30": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 134.2043155808933,
+      "e2el": 1145.3268953161314
+    },
+    "request_id 31": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 155.1072879540734,
+      "e2el": 1161.864467495121
+    },
+    "request_id 32": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 150.01202259259298,
+      "e2el": 1148.228622940369
+    },
+    "request_id 33": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 132.40435824077576,
+      "e2el": 1140.5484173689038
+    },
+    "request_id 34": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 147.25408554496244,
+      "e2el": 1156.963077695109
+    },
+    "request_id 35": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 152.50267860712484,
+      "e2el": 1154.8693662020378
+    },
+    "request_id 36": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 138.75049939285964,
+      "e2el": 1143.3549194596708
+    },
+    "request_id 37": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 143.23090479290113,
+      "e2el": 1150.0562549061142
+    },
+    "request_id 38": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 150.77753205783665,
+      "e2el": 1155.0787338628434
+    },
+    "request_id 39": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 141.42799807107076,
+      "e2el": 1146.974065080285
+    },
+    "request_id 40": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 142.32538955565542,
+      "e2el": 1147.2473428156227
+    },
+    "request_id 41": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 148.85735769104213,
+      "e2el": 1153.8450432340614
+    },
+    "request_id 42": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.12859608000144,
+      "e2el": 1150.2898539490998
+    },
+    "request_id 43": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.9859458920546,
+      "e2el": 1144.6372032170184
+    },
+    "request_id 44": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.4885772918351,
+      "e2el": 1151.6617521927692
+    },
+    "request_id 45": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 148.26160423783585,
+      "e2el": 1155.1793164238334
+    },
+    "request_id 46": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 142.6769071300514,
+      "e2el": 1143.8447609981522
+    },
+    "request_id 47": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 141.72767401020974,
+      "e2el": 1147.407992976252
+    },
+    "request_id 48": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 148.9240589789115,
+      "e2el": 1157.9442812725902
+    },
+    "request_id 49": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.31519793905318,
+      "e2el": 1146.4590193061158
+    },
+    "request_id 50": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 139.4785494208336,
+      "e2el": 1144.5350353769027
+    },
+    "request_id 51": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 148.01856196066365,
+      "e2el": 1158.6380071304739
+    },
+    "request_id 52": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 149.0007167966105,
+      "e2el": 1149.8545526158996
+    },
+    "request_id 53": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 136.92806343594566,
+      "e2el": 1141.5829171119258
+    },
+    "request_id 54": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.24696293193847,
+      "e2el": 1158.7864654306322
+    },
+    "request_id 55": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 152.26766458293423,
+      "e2el": 1153.5421591019258
+    },
+    "request_id 56": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 137.44584343675524,
+      "e2el": 1140.261386579834
+    },
+    "request_id 57": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 143.39115281496197,
+      "e2el": 1155.8345824810676
+    },
+    "request_id 58": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 153.59725246299058,
+      "e2el": 1156.4839815292507
+    },
+    "request_id 59": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 139.22504972619936,
+      "e2el": 1141.0325500010513
+    },
+    "request_id 60": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.72051618201658,
+      "e2el": 1152.5177568490617
+    },
+    "request_id 61": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 154.1491625229828,
+      "e2el": 1157.5353356110863
+    },
+    "request_id 62": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.99889663094655,
+      "e2el": 1142.7833810620941
+    },
+    "request_id 63": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 138.9706022790633,
+      "e2el": 1149.9752093958668
+    },
+    "request_id 64": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 153.0593310338445,
+      "e2el": 1157.2926570689306
+    },
+    "request_id 65": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 144.03207913599908,
+      "e2el": 1145.1970752882771
+    },
+    "request_id 66": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 138.15750581491739,
+      "e2el": 1147.8445769390091
+    },
+    "request_id 67": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 150.76045159902424,
+      "e2el": 1155.9614530890249
+    },
+    "request_id 68": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.77855390682817,
+      "e2el": 1147.6416979888454
+    },
+    "request_id 69": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 139.40414003981277,
+      "e2el": 1147.4056975259446
+    },
+    "request_id 70": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 148.22728056972846,
+      "e2el": 1153.1541899796575
+    },
+    "request_id 71": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.33898722706363,
+      "e2el": 1149.284356654156
+    },
+    "request_id 72": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.9156398451887,
+      "e2el": 1148.337457477115
+    },
+    "request_id 73": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.70682710921392,
+      "e2el": 1151.232486830093
+    },
+    "request_id 74": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.26895100716501,
+      "e2el": 1149.888024250511
+    },
+    "request_id 75": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 142.37858417117968,
+      "e2el": 1149.465026766993
+    },
+    "request_id 76": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.5188202536665,
+      "e2el": 1149.2668781285174
+    },
+    "request_id 77": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.13717956095934,
+      "e2el": 1150.3088712329045
+    },
+    "request_id 78": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 144.28850586107,
+      "e2el": 1151.5314896246418
+    },
+    "request_id 79": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.36588739557192,
+      "e2el": 1148.3570652795024
+    },
+    "request_id 80": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 143.82328059570864,
+      "e2el": 1149.4805326894857
+    },
+    "request_id 81": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.30224971100688,
+      "e2el": 1153.156428175047
+    },
+    "request_id 82": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.83598497789353,
+      "e2el": 1148.5960415378213
+    },
+    "request_id 83": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 142.1975464229472,
+      "e2el": 1147.901597707998
+    },
+    "request_id 84": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.50769974291325,
+      "e2el": 1154.9180960431695
+    },
+    "request_id 85": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.3631021073088,
+      "e2el": 1148.797408113256
+    },
+    "request_id 86": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 141.13509060489014,
+      "e2el": 1146.5389775228687
+    },
+    "request_id 87": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 146.44833948928863,
+      "e2el": 1155.8917067134753
+    },
+    "request_id 88": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 147.49663237202913,
+      "e2el": 1149.807851514779
+    },
+    "request_id 89": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.7411322472617,
+      "e2el": 1145.4314919910394
+    },
+    "request_id 90": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 145.11827785521746,
+      "e2el": 1155.3865443379618
+    },
+    "request_id 91": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 149.2309112176299,
+      "e2el": 1151.6315983226523
+    },
+    "request_id 92": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.41877066995949,
+      "e2el": 1144.539842507802
+    },
+    "request_id 93": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 144.08735269401222,
+      "e2el": 1154.9078075611033
+    },
+    "request_id 94": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 150.48984073800966,
+      "e2el": 1153.4646147121675
+    },
+    "request_id 95": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 140.36793355969712,
+      "e2el": 1141.2919012643397
+    },
+    "request_id 96": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 143.09728918690234,
+      "e2el": 1140.9569365782663
+    },
+    "request_id 97": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 150.7154395757243,
+      "e2el": 1131.436442016624
+    },
+    "request_id 98": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 141.39852618100122,
+      "e2el": 1087.2252355678938
+    },
+    "request_id 99": {
+      "prompt_tokens": 2000,
+      "output_tokens": 10000,
+      "ttft": 142.0817661290057,
+      "e2el": 1031.331037666183
+    }
+  }
+}
