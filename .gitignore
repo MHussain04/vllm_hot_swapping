@@ -1,0 +1,38 @@
+  # Python
+  __pycache__/
+  *.py[cod]
+  *$py.class
+  *.so
+  .Python
+
+  # Virtual environment
+  .venv/
+  venv/
+  ENV/
+
+  # IDE
+  .vscode/
+  .idea/
+  .claude/
+
+  # Large model files (if any in local_models)
+  *.bin
+  *.safetensors
+  *.gguf
+
+  # Logs
+  *.log
+  nohup.out
+
+  # Temporary files
+  *.tmp
+  *.swp
+  *.swo
+
+  # Exclude vllm directory (we'll add modified files manually)
+  vllm/*
+  !vllm/.gitignore
+
+# Exclude large benchmark JSON files
+*.json
+*.json >> .gitignore_parsed.json
